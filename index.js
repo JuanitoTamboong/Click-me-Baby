@@ -8,4 +8,6 @@ window.onload = function() {
         
     }
     };
-    
+     const audio = new Audio();
+    audio.src = "https://abdulmoqueet.github.io/music-player/songs/On_My_Way.mp3";
+
