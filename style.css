@@ -17,8 +17,9 @@ body{
   
 }
 .container img{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
+    top: -4px;
     position: relative;
     clip-path: circle();
 }
@@ -36,4 +37,14 @@ button:hover{
     background: #21df8a;
     transform: scale(1.1);
     color: #fff;
+}
+.me img{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    left: 80px;
+    animation: m  2s ;
+}
+@keyframes m{
+0%{transform:rotate(-360deg);}
 }
