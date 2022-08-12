@@ -4,7 +4,7 @@ window.onload = function() {
     
     function signUpFunc() {
         var altr = prompt("What's Your Name? ");
-        alert("Hi, " + altr + " alam mo bang bagay ka sakin");
+        alert("Hi, " + altr + " can u be my girlfriend?");
         
     }
     };
